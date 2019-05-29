@@ -14,5 +14,352 @@ content:
   -
     type: p
     innerHTML: 'Make sure to keep all page content within the . The top navbar is optional, and just for demonstration. Just create an element with the ID which will toggle the menu when clicked.'
+  -
+    type: div
+    attribute:
+      class: container
+    innerHTML:
+      -
+        type: div
+        attribute:
+          class: 'card-deck mb-3 text-center'
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: 'card mb-4 shadow-sm'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: card-header
+                innerHTML:
+                  -
+                    type: h4
+                    attribute:
+                      class: 'my-0 font-weight-normal'
+                    innerHTML: Free
+              -
+                type: div
+                attribute:
+                  class: card-body
+                innerHTML:
+                  -
+                    type: h1
+                    attribute:
+                      class: 'card-title pricing-card-title'
+                    innerHTML: '$0 '
+                  -
+                    type: ul
+                    attribute:
+                      class: 'list-unstyled mt-3 mb-4'
+                    innerHTML:
+                      -
+                        type: li
+                        innerHTML: '10 users included'
+                      -
+                        type: li
+                        innerHTML: '2 GB of storage'
+                      -
+                        type: li
+                        innerHTML: 'Email support'
+                      -
+                        type: li
+                        innerHTML: 'Help center access'
+                  -
+                    type: button
+                    attribute:
+                      type: button
+                      class: 'btn btn-lg btn-block btn-outline-primary'
+                    innerHTML: 'Sign up for free'
+          -
+            type: div
+            attribute:
+              class: 'card mb-4 shadow-sm'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: card-header
+                innerHTML:
+                  -
+                    type: h4
+                    attribute:
+                      class: 'my-0 font-weight-normal'
+                    innerHTML: Pro
+              -
+                type: div
+                attribute:
+                  class: card-body
+                innerHTML:
+                  -
+                    type: h1
+                    attribute:
+                      class: 'card-title pricing-card-title'
+                    innerHTML: '$15 '
+                  -
+                    type: ul
+                    attribute:
+                      class: 'list-unstyled mt-3 mb-4'
+                    innerHTML:
+                      -
+                        type: li
+                        innerHTML: '20 users included'
+                      -
+                        type: li
+                        innerHTML: '10 GB of storage'
+                      -
+                        type: li
+                        innerHTML: 'Priority email support'
+                      -
+                        type: li
+                        innerHTML: 'Help center access'
+                  -
+                    type: button
+                    attribute:
+                      type: button
+                      class: 'btn btn-lg btn-block btn-primary'
+                    innerHTML: 'Get started'
+          -
+            type: div
+            attribute:
+              class: 'card mb-4 shadow-sm'
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: card-header
+                innerHTML:
+                  -
+                    type: h4
+                    attribute:
+                      class: 'my-0 font-weight-normal'
+                    innerHTML: Enterprise
+              -
+                type: div
+                attribute:
+                  class: card-body
+                innerHTML:
+                  -
+                    type: h1
+                    attribute:
+                      class: 'card-title pricing-card-title'
+                    innerHTML: '$29 '
+                  -
+                    type: ul
+                    attribute:
+                      class: 'list-unstyled mt-3 mb-4'
+                    innerHTML:
+                      -
+                        type: li
+                        innerHTML: '30 users included'
+                      -
+                        type: li
+                        innerHTML: '15 GB of storage'
+                      -
+                        type: li
+                        innerHTML: 'Phone and email support'
+                      -
+                        type: li
+                        innerHTML: 'Help center access'
+                  -
+                    type: button
+                    attribute:
+                      type: button
+                      class: 'btn btn-lg btn-block btn-primary'
+                    innerHTML: 'Contact us'
+      -
+        type: footer
+        attribute:
+          class: 'pt-4 my-md-5 pt-md-5 border-top'
+        innerHTML:
+          -
+            type: div
+            attribute:
+              class: row
+            innerHTML:
+              -
+                type: div
+                attribute:
+                  class: 'col-12 col-md'
+                innerHTML:
+                  -
+                    type: img
+                    attribute:
+                      class: mb-2
+                      src: /docs/4.3/assets/brand/bootstrap-solid.svg
+                      alt: ''
+                      width: '24'
+                      height: '24'
+                  -
+                    type: small
+                    attribute:
+                      class: 'd-block mb-3 text-muted'
+                    innerHTML: '© 2017-2019'
+              -
+                type: div
+                attribute:
+                  class: 'col-6 col-md'
+                innerHTML:
+                  -
+                    type: h5
+                    innerHTML: Features
+                  -
+                    type: ul
+                    attribute:
+                      class: 'list-unstyled text-small'
+                    innerHTML:
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Cool stuff'
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Random feature'
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Team feature'
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Stuff for developers'
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Another one'
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Last time'
+              -
+                type: div
+                attribute:
+                  class: 'col-6 col-md'
+                innerHTML:
+                  -
+                    type: h5
+                    innerHTML: Resources
+                  -
+                    type: ul
+                    attribute:
+                      class: 'list-unstyled text-small'
+                    innerHTML:
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: Resource
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Resource name'
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Another resource'
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: 'Final resource'
+              -
+                type: div
+                attribute:
+                  class: 'col-6 col-md'
+                innerHTML:
+                  -
+                    type: h5
+                    innerHTML: About
+                  -
+                    type: ul
+                    attribute:
+                      class: 'list-unstyled text-small'
+                    innerHTML:
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: Team
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: Locations
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: Privacy
+                      -
+                        type: li
+                        innerHTML:
+                          -
+                            type: a
+                            attribute:
+                              class: text-muted
+                              href: '#'
+                            innerHTML: Terms
 
 
