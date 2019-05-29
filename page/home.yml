@@ -1,0 +1,18 @@
+settings:
+  layout:
+    - html
+    - main
+content:
+  -
+    type: h1
+    attribute:
+      class: mt-4
+    innerHTML: 'Simple Sidebar'
+  -
+    type: p
+    innerHTML: 'The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.'
+  -
+    type: p
+    innerHTML: 'Make sure to keep all page content within the . The top navbar is optional, and just for demonstration. Just create an element with the ID which will toggle the menu when clicked.'
+
+

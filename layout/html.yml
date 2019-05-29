@@ -1,0 +1,49 @@
+settings:
+  path: '1/innerHTML/1/innerHTML'
+content:
+  -
+    type: text
+    text: '<!DOCTYPE html>'
+  -
+    type: html
+    attribute:
+      lang: en
+    innerHTML:
+      -
+        type: head
+        innerHTML:
+          -
+            type: meta
+            attribute:
+              charset: utf-8
+          -
+            type: meta
+            attribute: 
+              name: viewport
+              content: 'width=device-width, initial-scale=1, shrink-to-fit=no'
+          -
+            type: meta
+            attribute:
+              name: description
+              content: ''
+          -
+            type: meta
+            attribute:
+              name: author
+              content: ''
+          -
+            type: title
+            innerHTML: 'Simple Sidebar - Start Bootstrap Template'
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/simple_sidebar/vendor/bootstrap/css/bootstrap.min.css
+              rel: stylesheet
+          -
+            type: link
+            attribute:
+              href: /theme/startbootstrap/simple_sidebar/css/simple-sidebar.css
+              rel: stylesheet
+      -
+        type: body
+        innerHTML: 'body...'
