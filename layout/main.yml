@@ -27,37 +27,37 @@ content:
                 type: a
                 attribute:
                   href: '#'
-                  class: 'list-group-item list-group-item-action bg-light'
+                  class: 'list-group-item list-group-item-action bg-light menu-click'
                 innerHTML: Dashboard
               -
                 type: a
                 attribute:
                   href: '#'
-                  class: 'list-group-item list-group-item-action bg-light'
+                  class: 'list-group-item list-group-item-action bg-light menu-click'
                 innerHTML: Shortcuts
               -
                 type: a
                 attribute:
                   href: '#'
-                  class: 'list-group-item list-group-item-action bg-light'
+                  class: 'list-group-item list-group-item-action bg-light menu-click'
                 innerHTML: Overview
               -
                 type: a
                 attribute:
                   href: '#'
-                  class: 'list-group-item list-group-item-action bg-light'
+                  class: 'list-group-item list-group-item-action bg-light menu-click'
                 innerHTML: Events
               -
                 type: a
                 attribute:
                   href: '#'
-                  class: 'list-group-item list-group-item-action bg-light'
+                  class: 'list-group-item list-group-item-action bg-light menu-click'
                 innerHTML: Profile
               -
                 type: a
                 attribute:
                   href: '#'
-                  class: 'list-group-item list-group-item-action bg-light'
+                  class: 'list-group-item list-group-item-action bg-light menu-click'
                 innerHTML: Status
       -
         type: div
@@ -109,7 +109,7 @@ content:
                           -
                             type: a
                             attribute:
-                              class: nav-link
+                              class: nav-link menu-click
                               href: '#'
                             innerHTML: 'Home '
                       -
@@ -120,7 +120,7 @@ content:
                           -
                             type: a
                             attribute:
-                              class: nav-link
+                              class: nav-link menu-click
                               href: '#'
                             innerHTML: Link
                       -
@@ -148,13 +148,13 @@ content:
                               -
                                 type: a
                                 attribute:
-                                  class: dropdown-item
+                                  class: dropdown-item menu-click
                                   href: '#'
                                 innerHTML: Action
                               -
                                 type: a
                                 attribute:
-                                  class: dropdown-item
+                                  class: dropdown-item menu-click
                                   href: '#'
                                 innerHTML: 'Another action'
                               -
@@ -164,13 +164,14 @@ content:
                               -
                                 type: a
                                 attribute:
-                                  class: dropdown-item
+                                  class: dropdown-item menu-click
                                   href: '#'
                                 innerHTML: 'Something else here'
           -
             type: div
             attribute:
               class: container-fluid
+              id: container
             innerHTML: content...
   -
     type: script
@@ -186,5 +187,10 @@ content:
       $("#menu-toggle").click(function(e){
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
+      });
+      $(".menu-click").click(function(e){
+        e.preventDefault();
+        console.log(e.target);
+        document.getElementById('container').innerHTML = e.target.innerHTML;
       });
 
